@@ -179,7 +179,7 @@ span.m-left {
 }
 
 #skill h1 {
-  font-size: 10rem;
+  font-size: 8rem;
   z-index: 0;
   opacity: .1;
 }
@@ -197,22 +197,6 @@ span.m-left {
   z-index: 1;
 }
 
-@media only screen and (max-height: 1070px) {
-  
-  .main-info-section {
-    justify-items: auto;
-  }
-
-  .main-info-section {
-    height: 500px;
-  }
-
-  #about  {
-    height: 600px;
-  }
-
-  
-}
 @media only screen and (max-width: 1120px) {
   .main-info-section {
     height: 500px;
@@ -236,7 +220,7 @@ span.m-left {
 
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1060px) {
 
   .main-info-section {
     height: 500px;
@@ -259,8 +243,31 @@ span.m-left {
   }
 
 }
+@media only screen and (max-height: 1070px) {
+  
+  .main-info-section {
+    justify-items: auto;
+    height: 500px;
+  }
 
-@media only screen and (min-width: 800px) {
+  .text h1{
+    padding: none;
+    margin: none;
+    width: max-content;
+  }
+
+  .text span {
+    font-size: 50px;
+  }
+
+  #about  {
+    height: 600px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 900px) {
 
   .main-info-section {
     height: 500px;
@@ -299,4 +306,47 @@ span.m-left {
     margin-top: 40px;
   }
 
+}
+
+@media only screen and (max-width: 800px) {
+  .main-info-section {
+    height: 500px;
+  }
+
+  .text h1{
+    padding: none;
+    margin: none;
+    width: max-content;
+  }
+
+  .text span {
+    font-size: 35px;
+  }
+
+  #about {
+    height: 700px;
+  }
+
+  #about h1 {
+    width: max-content;
+    font-size: 6.5rem;
+  }
+
+  .about-me-info {
+    width: 120%;
+    margin-top: 40px;
+  }
+
+  #skill .container .skill {
+    padding-top: 50px;
+  }
+
+  #skill h1 {
+    width: max-content;
+    font-size: 4.9rem;
+  }
+
+  .skills {
+    margin-top: 40px;
+  }
 }
